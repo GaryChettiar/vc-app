@@ -1,4 +1,4 @@
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5000"); // Your backend URL
+const socket = io("https://vc-app-ytza.onrender.com"); // Your backend URL
 export default socket;
